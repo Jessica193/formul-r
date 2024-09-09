@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <h1 class="headline mb-1">Forms</h1>
+        <form action="" method="get">
+
+            <div  class="mb-1">
+                <label class="form-label mb-05" for="fname">First name</label>
+                <input class="form-input" type="text" name="fname" id="fname">
+            </div>
+
+            <div class="mb-1">
+                <label class="form-label mb-05" for="email">Email</label>
+                <input class="form-input" type="email" name="email" placeholder="Enter your email address" id="email">
+            </div>
+
+            <div class="mb-1">
+                <label class="form-label mb-05" for="birthdate">Date of birth</label>
+                <input class="form-input" type="date" name="birthdate" id="birthdate">
+            </div>
+
+            <div class="mb-1">
+                <label class="form-label mb-05" for="message">Other information</label>
+                <textarea class="textarea" name="message" id="message"></textarea>
+            </div>
+
+            <div class="mb-1 flex-center">
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label  for="newsletter">Subscribe to our newsletter</label>
+            </div>
+
+            <div class="mb-05 flex-center">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+            </div>
+            <div class="mb-05 flex-center">
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="mb-1 flex-center">
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <div class="mb-1">
+                <label class="mb-05 form-label" for="role">Role</label>
+                <select class="form-input" name="role" id="role">
+                    <option disabled selected value=""></option>
+                    <option value="admin">Admin</option>
+                    <option value="student">Student</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            <div class="mb-05">
+                <input class="form-input" type="file" name="file" id="file">
+                <label for="file"></label>
+            </div>
+
+
+
+
+
+            <button class="btn">submit</button>
+
+            
+
+        </form>
+
+    </div>
+
+    </div>
+</body>
+</html>
